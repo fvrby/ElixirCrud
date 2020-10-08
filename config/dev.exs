@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :elixircrud, Elixircrud.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "12345678",
   database: "elixircrud_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,

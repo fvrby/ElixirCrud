@@ -13,7 +13,7 @@ config :elixircrud,
 # Configures the endpoint
 config :elixircrud, ElixircrudWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "0c2tmt9KQXrkEAEIPDv8HJPh8kQ+zZ/p/pzQqZXjLsvcliHAuw8QFQJIwN41SlTo",
+  secret_key_base: "sPCYyZ7YQ86ZUcc78wUr6wfAnCA7ZZnz2PVoMi5rvctq2zTmuRM7QujiU5pRhw64",
   render_errors: [view: ElixircrudWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Elixircrud.PubSub, adapter: Phoenix.PubSub.PG2]
 

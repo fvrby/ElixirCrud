@@ -15,7 +15,7 @@ defmodule ElixircrudWeb.Router do
 
   scope "/", ElixircrudWeb do
     pipe_through :browser
-
+    resources "/users", UserController
     get "/", PageController, :index
   end
 

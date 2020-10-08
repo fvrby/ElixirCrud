@@ -40,7 +40,7 @@ defmodule ElixircrudWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_elixircrud_key",
-    signing_salt: "flY/m4Qg"
+    signing_salt: "59nqZQMq"
 
   plug ElixircrudWeb.Router
 end
